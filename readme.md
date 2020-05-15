@@ -1,7 +1,7 @@
 # 安装说明：
 ## 自动安装：
 ```
-wget -O install.sh https://github.com/Turnright-git/94imm/blob/master/install.sh && chmod +x install.sh &&./install.sh
+wget -O install.sh https://github.com/xiaotong1995/94imm/blob/master/install.sh && chmod +x install.sh &&./install.sh
 ```
 安装过程中需要输入
 ```
@@ -43,7 +43,7 @@ email = "admin@94imm.com"
 # 网站调试模式
 debug = False
 # 页面底部友情链接
-friendly_link = [{"name":"94imm","link":"https://www.94imm.com"},{"name":"获取源码","link":"https://github.com/Turnright-git/94imm.git"}]
+friendly_link = [{"name":"94imm","link":"https://www.94imm.com"},{"name":"获取源码","link":"https://github.com/xiaotong1995/94imm.git"}]
 
 ```
 
@@ -65,7 +65,7 @@ friendly_link = [{"name":"94imm","link":"https://www.94imm.com"},{"name":"获取
 > 项目依赖python3.6 mysql5.6
 
 ```
-git clone https://github.com/Turnright-git/94imm.git
+git clone https://github.com/xiaotong1995/94imm.git
 cd 94imm
 vi config.py  #参照配置说明修改
 vi uwsgi.ini  #修改uwsgi配置
